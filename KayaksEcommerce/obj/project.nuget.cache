@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRh9jhHVmJF0+BEbAErDXv0WSVyOz/+ZJDSSe4NMH2jI4uF5vK6DsNcFOCzpq3goH4cb7LPlC3+1e7JCs1ZsGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
