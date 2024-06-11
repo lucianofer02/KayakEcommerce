@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}|Infrastructure\\Infrastructure.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\kayaksecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|solutionrelative:kayaksecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\kayaksecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|solutionrelative:kayaksecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Infrastructure\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Infrastructure\\ApplicationContext.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:54:21.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Program.cs",
+              "RelativeDocumentMoniker": "KayaksEcommerce\\Program.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Program.cs",
+              "RelativeToolTip": "KayaksEcommerce\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:32:45.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:25:42.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "KayaksEcommerce\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Controllers\\UserController.cs",
+              "RelativeToolTip": "KayaksEcommerce\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:09:08.539Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Domain\\Entities\\User.cs",
               "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T19:20:40.1Z",
               "EditorCaption": ""
