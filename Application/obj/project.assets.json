@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucia\\.nuget\\packages\\": {}
+    "C:\\Users\\pantr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\obj\\",
+      "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\pantr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pantr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Domain\\Domain.csproj"
+            "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj"
             }
           }
         }
@@ -63,11 +63,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -89,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
