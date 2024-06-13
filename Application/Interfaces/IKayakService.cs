@@ -12,8 +12,6 @@ namespace Application.Interfaces
     public interface IKayakService
     {
         Kayak Create(KayakCreateRequest kayakCreateRequest);
-        object Create(KayaksEcommerce.Application.Models.Requests.KayakCreateRequest createKayakRequest);
-        object Create(KayakCreateRequest createKayakRequest);
         void Delete(int id);
         List<KayakDto> GetAll();
         List<Kayak> GetAllFullData();

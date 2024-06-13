@@ -1,26 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\",
+  "WorkspaceRootPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\kayaksecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|solutionrelative:kayaksecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\kayaksecommerce\\controllers\\kayakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|solutionrelative:kayaksecommerce\\controllers\\kayakcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\domain\\entities\\kayak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\kayak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\application\\services\\kayakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|solutionrelative:application\\services\\kayakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}|Infrastructure\\Infrastructure.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\application\\models\\kayakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|solutionrelative:application\\models\\kayakdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\application\\interfaces\\ikayakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ikayakservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\kayaksecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\kayaksecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|solutionrelative:kayaksecommerce\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|c:\\users\\lucia\\source\\repos\\kayaksecommerce\\kayaksecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E981178D-E07E-4632-AC18-93CF409B8807}|KayaksEcommerce\\KayaksEcommerce.csproj|solutionrelative:kayaksecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}|Infrastructure\\Infrastructure.csproj|c:\\users\\lucia\\onedrive\\escritorio\\kayakecommerce\\infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +50,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KayakDto.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Models\\KayakDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\KayakDto.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Models\\KayakDto.cs",
+              "RelativeToolTip": "Application\\Models\\KayakDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAEwBQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T02:10:56.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KayakService.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Services\\KayakService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\KayakService.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Services\\KayakService.cs",
+              "RelativeToolTip": "Application\\Services\\KayakService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAlwCsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T01:53:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kayak.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Entities\\Kayak.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Kayak.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Entities\\Kayak.cs",
+              "RelativeToolTip": "Domain\\Entities\\Kayak.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T01:42:10.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IKayakService.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Interfaces\\IKayakService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IKayakService.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Interfaces\\IKayakService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IKayakService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T01:37:14.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KayakController.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\Controllers\\KayakController.cs",
+              "RelativeDocumentMoniker": "KayaksEcommerce\\Controllers\\KayakController.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\Controllers\\KayakController.cs",
+              "RelativeToolTip": "KayaksEcommerce\\Controllers\\KayakController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T01:32:16.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Infrastructure\\ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Infrastructure\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\ApplicationContext.cs",
               "RelativeToolTip": "Infrastructure\\ApplicationContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -47,24 +132,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\Program.cs",
               "RelativeDocumentMoniker": "KayaksEcommerce\\Program.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Program.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\Program.cs",
               "RelativeToolTip": "KayaksEcommerce\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T23:32:45.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,26 +158,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "KayaksEcommerce\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\KayaksEcommerce\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\Controllers\\UserController.cs",
               "RelativeToolTip": "KayaksEcommerce\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T23:09:08.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Domain\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\lucia\\source\\repos\\KayaksEcommerce\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Entities\\User.cs",
               "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T19:20:40.1Z",
               "EditorCaption": ""

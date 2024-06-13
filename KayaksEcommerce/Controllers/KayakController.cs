@@ -48,10 +48,10 @@ namespace KayaksEcommerce.Controllers
         public IActionResult Create([FromBody] KayakCreateRequest kayakCreateRequest)
         {
             var newObj = _kayakService.Create(kayakCreateRequest);
-            return CreatedAtAction(nameof(Get), new { id = newObj.id }, newObj);
+            return CreatedAtAction(nameof(Get), new { id = newObj.Id }, newObj);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("{id}")] 
         public IActionResult Update([FromRoute] int id, [FromBody] KayakUpdateRequest kayakUpdateRequest)
         {
             try

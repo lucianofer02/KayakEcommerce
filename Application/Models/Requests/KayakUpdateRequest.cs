@@ -10,6 +10,6 @@ namespace KayaksEcommerce.Application.Models.Requests
     {
         public string Name { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
-        public int price { get; set; } = int.MinValue;
+        public int Price { get; set; } = int.MinValue;
     }
 }

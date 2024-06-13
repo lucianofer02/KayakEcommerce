@@ -60,7 +60,7 @@ namespace Application.Services
 
             if (kayakUpdateRequest.Description != string.Empty) obj.Description = kayakUpdateRequest.Description;
 
-            if (kayakUpdateRequest.Price != string.Empty) obj.Price = kayakUpdateRequest.Price;
+            if (kayakUpdateRequest.Price != 0) obj.Price = kayakUpdateRequest.Price;
 
             _kayakRepository.Update(obj);
 
