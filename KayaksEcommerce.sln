@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KayaksEcommerce", "KayaksEc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{3AF543F0-B302-48BA-88F2-3F69B24BB8AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{BD59E9E2-1DAD-406B-BA15-D0D4D819E78D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{8678EAA5-3A6D-42B4-AF65-6BBC5672A795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

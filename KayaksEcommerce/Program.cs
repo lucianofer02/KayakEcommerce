@@ -1,6 +1,7 @@
 using Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
+using Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<UserService>();
-builder.Services.AddSingleton<IKayakService, KayakService>();
-
-
+#region Services
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IKayakRepository, KayakRepository>();
+builder.Services.AddScoped<IKayakService, KayakService>();
+#endregion
 
 
 var app = builder.Build();
@@ -24,7 +26,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+};
 
 app.UseHttpsRedirection();
 

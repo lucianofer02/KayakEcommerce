@@ -22,3 +22,15 @@ C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\obj\Debug\net8.0\Domain
 C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\ref\Domain.dll
