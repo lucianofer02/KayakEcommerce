@@ -43,6 +43,7 @@ namespace Application.Services
         {
             var obj = new Kayak();
             obj.Name = kayakCreateRequest.Name;
+            obj.Color = kayakCreateRequest.Color;
             obj.Description = kayakCreateRequest.Description;
             obj.Price = kayakCreateRequest.Price;
             return _kayakRepository.Add(obj);
@@ -57,6 +58,8 @@ namespace Application.Services
                 throw new NotFoundException(nameof(Kayak), id);
 
             if (kayakUpdateRequest.Name != string.Empty) obj.Name = kayakUpdateRequest.Name;
+
+            if (kayakUpdateRequest.Color != string.Empty) obj.Color = kayakUpdateRequest.Color;
 
             if (kayakUpdateRequest.Description != string.Empty) obj.Description = kayakUpdateRequest.Description;
 

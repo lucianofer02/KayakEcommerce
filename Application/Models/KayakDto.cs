@@ -13,14 +13,20 @@ namespace Application.Models
 
         public string Name { get; set; } = string.Empty;
 
+        public string Color {  get; set; } = string.Empty;
+
         public string Description { get; set; } = string.Empty;
+
+        public int Price { get; set; }
 
         public static KayakDto Create(Kayak kayak)
         {
             var dto = new KayakDto();
             dto.Id = kayak.Id;
             dto.Name = kayak.Name;
+            dto.Color = kayak.Color;
             dto.Description = kayak.Description;
+            dto.Price = kayak.Price;
 
             return dto;
         }

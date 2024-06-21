@@ -16,3 +16,5 @@ C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Infrastructure\obj
 C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache

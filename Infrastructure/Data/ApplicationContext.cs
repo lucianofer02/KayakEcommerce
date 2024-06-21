@@ -1,14 +1,24 @@
 ﻿using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data
 {
-   /* public class ApplicationContext : DbContext
+    public class ApplicationContext : DbContext
     {
         public DbSet<Kayak> Kayaks { get; set; }
-    } */
+        public DbSet<User> Users { get; set; }
+
+        public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
+        {
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Aquí puedes configurar las entidades y relaciones si es necesario
+            modelBuilder.Entity<Kayak>().ToTable("Kayaks");
+            modelBuilder.Entity<User>().ToTable("Users");
+
+            // Puedes añadir configuraciones adicionales aquí
+        }
+    }
 }
