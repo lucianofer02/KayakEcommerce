@@ -1,4 +1,6 @@
-﻿using Application.Services;
+﻿using Application.Interfaces;
+using Application.Models;
+using Application.Services;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,10 +17,10 @@ namespace KayaksEcommerce.Controllers
             _service = userService;
         }
 
-        [HttpGet("{name}")]
-        public IActionResult Get([FromRoute]string name)
+        [HttpGet]
+        public ActionResult<List<UserDto>> GetAll()
         {
-            return Ok(_service.Get(name));
+            return _service.GetAll();
         }
     }
 }

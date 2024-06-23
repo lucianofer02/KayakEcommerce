@@ -18,6 +18,7 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 
 #region Services
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IKayakRepository, KayakRepository>();
 builder.Services.AddScoped<IKayakService, KayakService>();
 #endregion

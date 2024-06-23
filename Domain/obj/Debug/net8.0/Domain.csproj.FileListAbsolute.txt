@@ -37,3 +37,6 @@ C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\n
 C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
 C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 C:\Users\pantr\Desktop\Facultad\Programacion 3\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache

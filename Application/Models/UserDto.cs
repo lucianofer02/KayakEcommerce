@@ -15,7 +15,7 @@ namespace Application.Models
         public string Password { get; set; } = string.Empty;
         public string Address {  get; set; } = string.Empty;
 
-        public static UserDto Create(UserDto user)
+        public static UserDto Create(User user)
         {
             var dto = new UserDto();
             dto.Id = user.Id;
