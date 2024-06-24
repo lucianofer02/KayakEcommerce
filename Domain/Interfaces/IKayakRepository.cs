@@ -9,11 +9,11 @@ namespace Domain.Interfaces
 {
     public interface IKayakRepository
     {
-        Kayak Add(Kayak kayak);
-        void Delete(Kayak kayak);
         List<Kayak> GetAll();
         Kayak? GetById(int id);
-        void SaveChanges();
+        Kayak Add(Kayak kayak);
+        void Delete(Kayak kayak);
         void Update(Kayak kayak);
+        void SaveChanges();
     }
 }

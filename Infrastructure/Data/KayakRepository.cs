@@ -11,6 +11,11 @@ namespace Infrastructure.Data
 {
     public class KayakRepository : IKayakRepository
     {
+        private readonly ApplicationContext _context;
+        public KayakRepository(ApplicationContext context)
+        {
+            _context = context;
+        }
         static int LastIdAssigned = 0;
         static List<Kayak> kayaks = [];
         public Kayak Add(Kayak kayak)

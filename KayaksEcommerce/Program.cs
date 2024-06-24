@@ -2,6 +2,7 @@ using Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
 using Infrastructure.Data;
+using KayaksEcommerce.Infrastructure.Data;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -16,10 +17,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 #region Services
-builder.Services.AddScoped<UserService>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IKayakRepository, KayakRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IKayakService, KayakService>();
+#endregion
+
+#region Repositories
+builder.Services.AddScoped<IKayakRepository, KayakRepositoryEf>();
+builder.Services.AddScoped<IUserRepository, UserRepositoryEf>();
 #endregion
 
 #region Database
