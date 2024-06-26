@@ -15,5 +15,6 @@ namespace Domain.Interfaces
         User? GetById(int id);
         void SaveChanges();
         void Update(User user);
+        User? GetUserByUserName(string userName);
     }
 }
