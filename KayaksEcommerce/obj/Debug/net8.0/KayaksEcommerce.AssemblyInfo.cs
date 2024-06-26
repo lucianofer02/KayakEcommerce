@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KayaksEcommerce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8f904cc8c20aec97f79b96825d050c8a9041b2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c5699c11f7d3bbaf1c5d29095606be1bdb3daa4")]
 [assembly: System.Reflection.AssemblyProductAttribute("KayaksEcommerce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KayaksEcommerce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

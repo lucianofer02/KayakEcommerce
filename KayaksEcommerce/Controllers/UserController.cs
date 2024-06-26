@@ -4,13 +4,15 @@ using Application.Models.Requests;
 using Application.Services;
 using Domain.Entities;
 using Domain.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KayaksEcommerce.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         private readonly UserService _userService;
