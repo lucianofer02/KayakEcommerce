@@ -61,5 +61,10 @@ namespace KayaksEcommerce.Infrastructure.Data
         {
             throw new NotImplementedException();
         }
+
+        public User? GetUserByUserName(string userName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

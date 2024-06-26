@@ -35,6 +35,11 @@ namespace Infrastructure.Data
             return users.FirstOrDefault(x => x.Id == id);
         }
 
+        public User? GetUserByUserName(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
         public void SaveChanges()
         {
             throw new NotImplementedException();

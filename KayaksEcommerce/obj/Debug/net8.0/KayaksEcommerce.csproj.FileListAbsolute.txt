@@ -303,3 +303,11 @@ C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8
 C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
