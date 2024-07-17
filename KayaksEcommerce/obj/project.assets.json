@@ -3385,19 +3385,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucia\\.nuget\\packages\\": {}
+    "C:\\Users\\pantr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
       "projectName": "KayaksEcommerce",
-      "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
-      "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\obj\\",
+      "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
+      "packagesPath": "C:\\Users\\pantr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\KayaksEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pantr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3411,11 +3411,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Application.csproj"
+            "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj"
             },
-            "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3424,11 +3424,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3483,7 +3478,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,8 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace KayaksEcommerce.Controllers
 {
     [ApiController]
-    [Authorize]
     [Route("api/[controller]")]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;

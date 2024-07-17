@@ -3,9 +3,15 @@ using Application.Services;
 using Domain.Interfaces;
 using Infrastructure.Data;
 using KayaksEcommerce.Infrastructure.Data;
+using KayaksEcommerce.Infrastructure.Services;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
+using System.Text;
+using static KayaksEcommerce.Infrastructure.Services.AuthenticationService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,11 +20,55 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(setupAction =>
+{
+    setupAction.AddSecurityDefinition("KayaksEcommerceApiBearerAuth", new OpenApiSecurityScheme()
+    {
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        Description = "Pegar token generado al logear."
+    });
+
+    setupAction.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "KayaksEcommerceApiBearerAuth"
+                }
+            }, new List<string>()
+        }
+    });
+
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    setupAction.IncludeXmlComments(xmlPath);
+});
+
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["AuthenticationService:Issuer"],
+            ValidAudience = builder.Configuration["AuthenticationService:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["AuthenticationService:SecretForKey"]))
+        };
+    }
+);
 
 #region Services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IKayakService, KayakService>();
+builder.Services.Configure<AuthenticationServiceOptions>(
+    builder.Configuration.GetSection(AuthenticationServiceOptions.AuthenticationService));
+builder.Services.AddScoped<ICustomAuthenticationService, AuthenticationService>();
 #endregion
 
 #region Repositories
@@ -59,3 +109,8 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+public partial class Program
+{ 
+}
