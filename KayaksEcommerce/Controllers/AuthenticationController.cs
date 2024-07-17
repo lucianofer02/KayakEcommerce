@@ -1,6 +1,7 @@
 ﻿
 using Application.Interfaces;
 using Application.Models.Requests;
+using KayaksEcommerce.Application.Models.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KayaksEcommerce.Web.Controllers;
