@@ -21,9 +21,6 @@ namespace Domain.Entities
         [EmailAddress]
         public string? Email { get; set; }
         [Required]
-        [EnumDataType(typeof(UserRoleEnum))]
-        public UserRoleEnum UserRol { get; set; }
-        [Required]
         public string? Address { get; set; }
     }
 }

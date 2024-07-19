@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj": {}
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\pantr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Application\\obj\\",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj"
+              "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Domain\\Domain.csproj"
               }
             }
           }
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -46,27 +51,27 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -85,21 +90,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\pantr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantr\\Desktop\\Facultad\\Programacion 3\\KayakEcommerce\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,6 +124,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -127,27 +137,27 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -166,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -45,7 +45,6 @@ builder.Services.AddSwaggerGen(setupAction =>
 
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    setupAction.IncludeXmlComments(xmlPath);
 });
 
 builder.Services.AddAuthentication("Bearer")

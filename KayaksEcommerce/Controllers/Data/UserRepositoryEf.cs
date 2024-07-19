@@ -61,5 +61,10 @@ namespace KayaksEcommerce.Infrastructure.Data
         {
             throw new NotImplementedException();
         }
+
+        public User? GetUserByUserName(string userName)
+        {
+            return _context.Users.SingleOrDefault(p => p.Name == userName);
+        }
     }
 }
