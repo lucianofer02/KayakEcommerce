@@ -25,16 +25,19 @@ namespace KayaksEcommerce.Infrastructure.Services
 
         private User? ValidateUser(AuthenticationRequest authenticationRequest)
         {
-            if (string.IsNullOrEmpty(authenticationRequest.UserName) || string.IsNullOrEmpty(authenticationRequest.Password))
+            if (string.IsNullOrEmpty(authenticationRequest.Name) || string.IsNullOrEmpty(authenticationRequest.Password))
                 return null;
 
-            var user = _userRepository.GetUserByUserName(authenticationRequest.UserName);
+            var user = _userRepository.GetUserByUserName(authenticationRequest.Name);
 
             if (user == null) return null;
 
-            // CREAR TIPO DE USUARIO ADMIN Y CLIENTE if (authenticationRequest.UserType == typeof(User).Name || authenticationRequest == typeof()
+            if (authenticationRequest.UserType == typeof(Client).Name || authenticationRequest.UserType == typeof(Admin).Name)
+            {
+                if (user.UserType == authenticationRequest.UserType && user.Password == authenticationRequest.Password) return user;
+            }
 
-            return user;
+            return null;
         }
 
         public string Authenticate(AuthenticationRequest authenticationRequest)

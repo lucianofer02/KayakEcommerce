@@ -3,6 +3,7 @@ using Application.Services;
 using Domain.Interfaces;
 using Infrastructure.Data;
 using KayaksEcommerce.Infrastructure.Data;
+using KayaksEcommerce.Infrastructure.Data.Migrations;
 using KayaksEcommerce.Infrastructure.Services;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;

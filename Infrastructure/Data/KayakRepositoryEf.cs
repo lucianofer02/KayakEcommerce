@@ -1,6 +1,7 @@
 ﻿using Domain.Entities;
 using Domain.Interfaces;
 using Infrastructure.Data;
+using KayaksEcommerce.Infrastructure.Data.Migrations;
 
 namespace KayaksEcommerce.Infrastructure.Data
 {
