@@ -14,6 +14,7 @@ namespace Application.Models
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public string Address {  get; set; } = string.Empty;
+        public string UserType { get; set; } = string.Empty;
 
         public static UserDto Create(User user)
         {
@@ -23,6 +24,7 @@ namespace Application.Models
             dto.Email = user.Email;
             dto.Password = user.Password;
             dto.Address = user.Address;
+            dto.UserType = user.UserType;
 
             return dto;
         }

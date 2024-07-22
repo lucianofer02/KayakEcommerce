@@ -48,7 +48,7 @@ namespace Infrastructure.Data
         public void Update(User user)
         {
             var obj = users.FirstOrDefault(x => x.Id == user.Id)
-                ?? throw new NotFoundException(nameof(Kayak), user.Id);
+                ?? throw new NotFoundException(nameof(User), user.Id);
 
             obj.Name = user.Name;
 

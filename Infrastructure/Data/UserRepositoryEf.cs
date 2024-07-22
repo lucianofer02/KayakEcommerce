@@ -58,10 +58,11 @@ namespace KayaksEcommerce.Infrastructure.Data
             _context.SaveChanges();
         }
 
-        User IUserRepository.Add(User user)
-        {
-            throw new NotImplementedException();
-        }
+        //User IUserRepository.Add(User user)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
 
         public User? GetUserByUserName(string userName)
         {

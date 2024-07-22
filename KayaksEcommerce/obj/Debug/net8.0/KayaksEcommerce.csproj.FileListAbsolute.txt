@@ -455,3 +455,5 @@ C:\Users\lucia\OneDrive\Escritorio\P3\KayakEcommerce\KayaksEcommerce\obj\Debug\n
 C:\Users\lucia\OneDrive\Escritorio\P3\KayakEcommerce\KayaksEcommerce\obj\Debug\net8.0\ref\KayaksEcommerce.dll
 C:\Users\lucia\OneDrive\Escritorio\P3\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\lucia\OneDrive\Escritorio\P3\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\appsettings.Staging.json
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\appsettings.Staging.json
+C:\Users\lucia\OneDrive\Escritorio\KayakEcommerce\KayaksEcommerce\bin\Debug\net8.0\System.Text.Json.dll

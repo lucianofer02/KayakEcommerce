@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K2DsWGdUjBfoehdaEL2ihD3M+edbXlyD7majSGbVXfCD0WaM5XGcPs7BplCaAei+ooRkeRmDw2l/MSm4U0s2ZQ==",
+  "dgSpecHash": "t6DcesUcAWsnhir8jv9dZPpCXh8PJK+veWsMASUhFo6krMRfqcQCigl4EFLsHiiuljlzg6ezKtazQicfHHUw7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucia\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lucia\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",

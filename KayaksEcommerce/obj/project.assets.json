@@ -3390,11 +3390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
+      "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
       "projectName": "KayaksEcommerce",
-      "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
+      "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\KayaksEcommerce.csproj",
       "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\KayaksEcommerce\\obj\\",
+      "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\KayaksEcommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3411,11 +3411,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Application\\Application.csproj"
+            "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Application\\Application.csproj"
             },
-            "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\P3\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

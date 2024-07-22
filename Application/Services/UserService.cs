@@ -47,6 +47,7 @@ namespace Application.Services
             obj.Email = userCreateRequest.Email;
             obj.Password = userCreateRequest.Password;
             obj.Address = userCreateRequest.Address;
+            obj.UserType = userCreateRequest.UserType;
             return _userRepository.Add(obj);
         }
 

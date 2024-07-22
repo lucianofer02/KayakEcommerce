@@ -23,6 +23,6 @@ namespace Domain.Entities
         public string? Email { get; set; }
         [Required]
         public string? Address { get; set; }
-        public string UserType { get; set; }
+        public string UserType { get; set; } = "DefaultType";
     }
 }
