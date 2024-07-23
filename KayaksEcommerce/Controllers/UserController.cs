@@ -12,7 +12,7 @@ namespace KayaksEcommerce.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+    [Authorize(Policy = "Admin")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -46,7 +46,6 @@ namespace KayaksEcommerce.Controllers
             return _userService.GetAllFullData();
         }
 
-        [Authorize (Policy = "Admin")]
         [HttpPost]
         public IActionResult Create([FromBody] UserCreateRequest userCreateRequest)
         {

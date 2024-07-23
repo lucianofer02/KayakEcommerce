@@ -4,6 +4,7 @@ using Domain.Entities;
 using Domain.Exceptions;
 using Domain.Interfaces;
 using KayaksEcommerce.Application.Models.Requests;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,7 @@ namespace KayaksEcommerce.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class KayakController : ControllerBase
     {
         private readonly IKayakService _kayakService;
@@ -44,6 +46,7 @@ namespace KayaksEcommerce.Controllers
             return _kayakService.GetAllFullData();
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPost]
         public IActionResult Create([FromBody] KayakCreateRequest kayakCreateRequest)
         {
@@ -51,6 +54,7 @@ namespace KayaksEcommerce.Controllers
             return CreatedAtAction(nameof(Get), new { id = newObj.Id }, newObj);
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpPut("{id}")] 
         public IActionResult Update([FromRoute] int id, [FromBody] KayakUpdateRequest kayakUpdateRequest)
         {
@@ -65,6 +69,7 @@ namespace KayaksEcommerce.Controllers
             }
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpDelete("{id}")]
         public IActionResult Delete([FromRoute] int id)
         {

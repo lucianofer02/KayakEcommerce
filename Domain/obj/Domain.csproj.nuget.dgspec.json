@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pantr\\Desktop\\KayakEcommerce\\Domain\\Domain.csproj": {}
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pantr\\Desktop\\KayakEcommerce\\Domain\\Domain.csproj": {
+    "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pantr\\Desktop\\KayakEcommerce\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\pantr\\Desktop\\KayakEcommerce\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\pantr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pantr\\Desktop\\KayakEcommerce\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucia\\OneDrive\\Escritorio\\KayakEcommerce\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pantr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
