@@ -46,6 +46,7 @@ namespace KayaksEcommerce.Controllers
             return _userService.GetAllFullData();
         }
 
+        [Authorize (Policy = "Admin")]
         [HttpPost]
         public IActionResult Create([FromBody] UserCreateRequest userCreateRequest)
         {

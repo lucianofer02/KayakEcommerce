@@ -2,9 +2,11 @@ using Application.Interfaces;
 using Application.Services;
 using Domain.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Data.Migrations;
 using KayaksEcommerce.Infrastructure.Data;
 using KayaksEcommerce.Infrastructure.Data.Migrations;
 using KayaksEcommerce.Infrastructure.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -62,6 +64,11 @@ builder.Services.AddAuthentication("Bearer")
         };
     }
 );
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+});
 
 #region Services
 builder.Services.AddScoped<IUserService, UserService>();
